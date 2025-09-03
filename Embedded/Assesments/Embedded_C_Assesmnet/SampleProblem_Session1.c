@@ -8,12 +8,12 @@
 void delay_ms(int ms) {
     volatile long i, j; 	// Use volatile to prevent optimization
     
-	for(i = 0;i<200;i++){
+	for(i = 0;i<ms;i++){
+        for(j = 0;j<1000;j++){
 
+        }
     }
-    for(j = 0;j<1500;j++){
-
-    }
+    
 // Adjust this value for desired delay
                // Do nothing, just waste time
    
@@ -27,7 +27,7 @@ int main() {
 
     // Loop to blink the LED
     // The for loop iterates a known number of times (max_blinks)
-    for(int i = 0;i<=max_blinks;i++){
+    for(int i = 0;i<max_blinks;i++){
         // Conditional statement (if-else)
         // Checks if the current counter value is less than the threshold
         if(counter<threshold){
@@ -51,7 +51,7 @@ int main() {
     }
 
     // Another conditional statement demonstrating logical operator
-    
+    if(counter == max_blinks && counter>threshold)
        // Logical AND operator (&&)
         printf("Blinking sequence completed.\n");
     
