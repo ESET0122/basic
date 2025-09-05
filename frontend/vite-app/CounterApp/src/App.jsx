@@ -13,16 +13,17 @@ function App(){
     count--
     document.getElementById('a').innerText = count
   }
+  
 
   return(
-    <div>
+    <>
       <h1>Counter WebApp</h1>
       <h1 id='a'>
         0
       </h1>
       <button onClick={increment}> Increment</button>
       <button onClick={decrement}> Decrement</button>
-    </div>
+    </>
   )
 }
 
