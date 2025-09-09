@@ -13,7 +13,41 @@ function App(){
     count--
     document.getElementById('a').innerText = count
   }
+
+  // const name = `Reetu 
+  // Raj 
+  // Chauhan
+  // 21`
+  // console.log(name);
+  // console.log(`Hello ${name}`)
   
+  
+  const name = 'RRC'
+  const age = 25
+  //property shorthand
+  const person = {name,age};
+  console.log(person);
+  //method shorthand
+  const utils = {
+    greet() {
+      return `Hi, ${name}`
+    }
+  }
+  console.log(utils.greet())
+
+  //map function
+  const item = [1,2,3,4]
+  const double = item.map(n=>n*2)
+  console.log(double)
+  //filter function
+  const even = item.filter(n=>n%2==0)
+  console.log(even)
+  //reduce function
+  const initialValue = item[0]
+  const sum = item.reduce((acc,v)=>v<acc?v:acc,initialValue)
+  console.log(sum)
+
+
 
   return(
     <>

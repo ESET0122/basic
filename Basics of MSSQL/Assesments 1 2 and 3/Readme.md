@@ -1,0 +1,1 @@
+# Directory includes sql codes for Assessment 1,2 and 3.
