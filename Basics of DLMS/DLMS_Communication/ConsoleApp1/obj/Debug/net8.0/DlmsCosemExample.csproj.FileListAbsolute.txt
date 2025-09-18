@@ -1,0 +1,14 @@
+D:\DLMS\DLMS_Communication\ConsoleApp1\obj\Debug\net8.0\DlmsCosemExample.GeneratedMSBuildEditorConfig.editorconfig
+D:\DLMS\DLMS_Communication\ConsoleApp1\obj\Debug\net8.0\DlmsCosemExample.AssemblyInfoInputs.cache
+D:\DLMS\DLMS_Communication\ConsoleApp1\obj\Debug\net8.0\DlmsCosemExample.AssemblyInfo.cs
+D:\DLMS\DLMS_Communication\ConsoleApp1\obj\Debug\net8.0\DlmsCosemExample.csproj.CoreCompileInputs.cache
+D:\DLMS\DLMS_Communication\ConsoleApp1\bin\Debug\net8.0\DlmsCosemExample.exe
+D:\DLMS\DLMS_Communication\ConsoleApp1\bin\Debug\net8.0\DlmsCosemExample.deps.json
+D:\DLMS\DLMS_Communication\ConsoleApp1\bin\Debug\net8.0\DlmsCosemExample.runtimeconfig.json
+D:\DLMS\DLMS_Communication\ConsoleApp1\bin\Debug\net8.0\DlmsCosemExample.dll
+D:\DLMS\DLMS_Communication\ConsoleApp1\bin\Debug\net8.0\DlmsCosemExample.pdb
+D:\DLMS\DLMS_Communication\ConsoleApp1\obj\Debug\net8.0\DlmsCosemExample.dll
+D:\DLMS\DLMS_Communication\ConsoleApp1\obj\Debug\net8.0\refint\DlmsCosemExample.dll
+D:\DLMS\DLMS_Communication\ConsoleApp1\obj\Debug\net8.0\DlmsCosemExample.pdb
+D:\DLMS\DLMS_Communication\ConsoleApp1\obj\Debug\net8.0\DlmsCosemExample.genruntimeconfig.cache
+D:\DLMS\DLMS_Communication\ConsoleApp1\obj\Debug\net8.0\ref\DlmsCosemExample.dll
