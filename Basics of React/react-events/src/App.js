@@ -1,18 +1,25 @@
-import ButtonComponent from "./components/ButtonComponents";
-import FormEventComponent from "./components/FormEventComponent";
-import LoginFormComponent from "./components/LoginFormComponent";
-import MouseEvent from "./components/MouseEvent";
-import UseEffectComponent from "./components/UseEffectComponent";
+import { createContext, useState } from "react";
+// import UseContextSample from "./components/UseContextSample";
+import UseReducerComponent from "./components/UseReducerComponent";
+import CustomComponent from "./components/CustomComponent";
 
+
+// const Context = createContext();
+// export {Context};
 function App() {
 
-  // const buttonHandler = ()=>{console.log("hello world")};
+  // const [count,setCount] = useState(0);
+  // const [username,setUsername] = useState("username");
+
 
   return (
+    // <Context.Provider value={{count,setCount,username,setUsername}}>
+      
+    // </Context.Provider>
     <>
-    <LoginFormComponent/>
-    <UseEffectComponent/>
+    <CustomComponent/>
     </>
+    
   );
 }
 
